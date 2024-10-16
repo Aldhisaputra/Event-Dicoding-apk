@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Dicoding Event</string>
+    <string name="event_picture">Gambar Event</string>
+    <string name="event_title">Judul event</string>
+    <string name="title_activity_bottom_nav">BottomNavActivity</string>
+
+    <string name="upcoming">Upcoming</string>
+    <string name="finished">Finished</string>
+
+    <string name="event_name">Titel</string>
+    <string name="event_description"> Deskripsi</string>
+
+    <string name="event_regis">40</string>
+    <string name="register">Daftar</string>
+    <string name="detail_information">Informasi Lainnya</string>
+    <string name="quota_left">Sisa Kuota</string>
+    <string name="time">Waktu</string>
+
+</resources>
