@@ -1,4 +1,4 @@
-package com.bangkit.eventdicoding
+package com.bangkit.eventdicoding.Upcoming
 
 import android.content.Intent
 import android.os.Bundle
@@ -11,6 +11,8 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.bangkit.eventdicoding.Activity.DetailActivity
+import com.bangkit.eventdicoding.Event.EventAdapter
 import com.bangkit.eventdicoding.databinding.FragmentUpcomingBinding
 
 class UpcomingFragment : Fragment() {

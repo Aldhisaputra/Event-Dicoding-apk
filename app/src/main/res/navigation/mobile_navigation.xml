@@ -7,14 +7,22 @@
 
     <fragment
         android:id="@+id/navigation_upcoming"
-        android:name="com.bangkit.eventdicoding.UpcomingFragment"
+        android:name="com.bangkit.eventdicoding.Upcoming.UpcomingFragment"
         android:label="fragment_upcoming"
         tools:layout="@layout/fragment_upcoming" />
 
     <fragment
         android:id="@+id/navigation_finished"
-        android:name="com.bangkit.eventdicoding.FinishedFragment"
+        android:name="com.bangkit.eventdicoding.Finished.FinishedFragment"
         android:label="fragment_finished"
         tools:layout="@layout/fragment_finished" />
+
+   
+    <fragment
+        android:id="@+id/dark_mode"
+        android:name="com.bangkit.eventdicoding.Setting.SettingFragment"
+        android:label="fragment_setting"
+        tools:layout="@layout/fragment_setting" />
+
 
 </navigation>

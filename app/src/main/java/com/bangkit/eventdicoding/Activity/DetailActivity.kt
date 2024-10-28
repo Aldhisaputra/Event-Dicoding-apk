@@ -1,4 +1,4 @@
-package com.bangkit.eventdicoding
+package com.bangkit.eventdicoding.Activity
 
 import android.annotation.SuppressLint
 import android.content.Intent
@@ -7,6 +7,7 @@ import android.os.Build
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.text.HtmlCompat
+import com.bangkit.eventdicoding.Event.ListEventsItem
 import com.bangkit.eventdicoding.databinding.ActivityDetailBinding
 import com.bumptech.glide.Glide
 

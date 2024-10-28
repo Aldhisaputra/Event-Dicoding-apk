@@ -1,4 +1,4 @@
-package com.bangkit.eventdicoding
+package com.bangkit.eventdicoding.API
 
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor

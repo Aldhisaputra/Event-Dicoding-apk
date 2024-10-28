@@ -11,4 +11,12 @@
         android:icon="@drawable/ic_done_all_24"
         android:title="@string/finished" />
 
+
+
+    <item
+        android:id="@+id/dark_mode"
+        android:icon="@drawable/ic_settings"
+        android:title="@string/setting" />
+
+
 </menu>

@@ -1,9 +1,10 @@
-package com.bangkit.eventdicoding
+package com.bangkit.eventdicoding.Activity
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.setupWithNavController
+import com.bangkit.eventdicoding.R
 import com.bangkit.eventdicoding.databinding.ActivityBottomNavBinding
 import com.google.android.material.bottomnavigation.BottomNavigationView
 

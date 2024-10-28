@@ -54,7 +54,7 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
-    //
+
     implementation(libs.retrofit)
     implementation(libs.converter.gson)
     implementation(libs.okhttp)
@@ -63,5 +63,17 @@ dependencies {
     implementation(libs.kotlinx.coroutines.android)
     implementation(libs.androidx.navigation.ui.ktx)
     implementation(libs.androidx.core)
+
+    // DataStore Preferences
+    implementation(libs.androidx.datastore.preferences)
+
+
+// Kotlin Coroutines
+    implementation(libs.kotlinx.coroutines.core)
+
+// Room Database
+    implementation(libs.androidx.room.runtime)
+// Versi terbaru
+
 
 }

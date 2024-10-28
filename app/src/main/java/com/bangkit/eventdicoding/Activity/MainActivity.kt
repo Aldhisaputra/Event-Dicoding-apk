@@ -1,10 +1,11 @@
-package com.bangkit.eventdicoding
+package com.bangkit.eventdicoding.Activity
 
 import android.os.Bundle
 import android.view.View
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.bangkit.eventdicoding.MainViewModel
 import com.bangkit.eventdicoding.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {

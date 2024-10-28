@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".DetailActivity">
+    tools:context=".Activity.DetailActivity">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -28,6 +28,18 @@
                 app:layout_constraintTop_toTopOf="parent"
                 android:scaleType="centerCrop"
                 tools:srcCompat="@tools:sample/avatars" />
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/fab_fav"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:contentDescription="@string/favorite"
+                app:srcCompat="@drawable/ic_outlined_favorite"
+                app:layout_constraintBottom_toBottomOf="@id/MediaCover"
+                app:layout_constraintEnd_toEndOf="@id/MediaCover"/>
+
+
 
             <TextView
                 android:id="@+id/Name"

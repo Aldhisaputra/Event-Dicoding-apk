@@ -1,4 +1,4 @@
-package com.bangkit.eventdicoding
+package com.bangkit.eventdicoding.Event
 
 
 import android.view.LayoutInflater
